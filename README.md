@@ -36,7 +36,6 @@
 <!-- --------------------------------------------------------- -->
 
 ## 👨‍🎓 Contributors
-![GitHub Contributors Image](https://contrib.rocks/image?repo=thomaspsl/WebsiteFront)
 
 <!-- --------------------------------------------------------- -->
 
