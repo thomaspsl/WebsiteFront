@@ -1,0 +1,43 @@
+/* Footer */
+.footer{
+    padding: 0 4rem 4rem;
+    position: fixed;
+    justify-content: space-between;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    letter-spacing: 1px;
+    z-index: 100;
+    display: flex;
+}
+
+/* QR Code */
+/* .middle{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.middle h2{
+    margin: 1rem;
+}
+.middle img{
+    width: 15rem;
+}
+.middle .courageous{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 450px) {
+    .middle h2{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .middle img {
+        width: 13rem;
+    }
+    .middle .courageous span{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+} */

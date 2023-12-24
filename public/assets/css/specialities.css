@@ -1,0 +1,22 @@
+/* Footer */
+.footer{
+    padding: 0 4rem 4rem;
+    position: relative;
+    justify-content: space-between;
+    z-index: 5;
+    letter-spacing: 1px;
+    display: flex;
+}
+.effect{
+    padding: 0 4rem 4rem;
+    position: fixed;
+    justify-content: space-between;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(1.2);
+}

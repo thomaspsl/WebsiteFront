@@ -1,0 +1,98 @@
+/* Scroller */
+.scroller{
+    font-size: .875rem;
+    letter-spacing: .1em;
+    position: absolute;
+    bottom: 8rem;
+    left: 4px;
+    z-index: 5;
+    padding-left: 4rem;
+    pointer-events: none;
+}
+.scroller b{
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    transform-origin: 100% 50%;
+    transform: rotate(90deg);
+}
+.scroller:after {
+    content: "";
+    display: block;
+    background-color: var(--color_wheat);
+    width: 1px;
+    height: 72px;
+    transform-origin: 0 0;
+    transform: scaleY(0);
+    -webkit-animation: scroll-line 2.1s cubic-bezier(.28,.11,.32,1) .6s infinite forwards;
+    animation: scroll-line 2.1s cubic-bezier(.28,.11,.32,1) .6s infinite forwards;
+}
+@keyframes scroll-line {
+    0% {
+        opacity: 1;
+        transform: scaleY(0)
+    }
+    60% {
+        opacity: 1;
+        transform: scaleY(1)
+    }
+    80% {
+        opacity: 0;
+        transform: scaleY(1)
+    }
+    to {
+        opacity: 0;
+        transform: scaleY(1)
+    }
+}
+
+/* Footer */
+.footer{
+    padding: 0 4rem 4rem;
+    position: fixed;
+    justify-content: space-between;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    letter-spacing: 1px;
+    z-index: 100;
+    display: flex;
+}
+
+/* Responsive */
+@media (max-width: 600px) and (max-height: 385px){
+    .scroller{
+        display: none;
+    }
+}
+@media (max-width: 775px) and (max-height: 350px){
+    .scroller{
+        bottom: 5rem;  
+    }
+}
+@media (max-width: 600px) and (max-height: 330px){
+    .scroller{
+        display: none;
+    }
+}
+@media (max-height: 420px){
+    .scroller{
+        bottom: 7rem;  
+    }
+}
+@media (max-height: 380px){
+    .scroller{
+        bottom: 6rem;  
+    }
+}
+@media (max-height: 345px){
+    .scroller{
+        bottom: 5rem;  
+    }
+}
+@media (max-height: 325px){
+    .scroller{
+        display: none;  
+    }
+}

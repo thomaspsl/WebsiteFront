@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="titleProfile"></title>
+
+    <!-- CSS -->
+    <link rel="icon" href="pictures/icon.ico"/>
+    <link rel="stylesheet" href="css/misc.css"/>
+    <link rel="stylesheet" href="css/profile.css"/>
+
+    <!-- SCRIPT -->
+    <script src="js/misc.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/lang.js"></script>
+
+    <!-- LIBS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <a href="/portfolio" class="logo">
+            <img class="pictureLogo" src="pictures/icon.png">Portfol<span class="io">io</span></a>        
+        <div class="rightside">
+            <div class="btns flagToggle">
+                <img src="pictures/uk.png">
+                <img src="pictures/fr.png">
+            </div>
+            <div class="btns dayNight">
+                <ion-icon name="moon-outline"></ion-icon>
+                <ion-icon name="sunny-outline"></ion-icon>
+            </div>
+            <div class="btns menuToggle">
+                <ion-icon name="menu-outline"></ion-icon>
+                <ion-icon name="close-outline"></ion-icon>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <ul id="navigation">
+        <li class="overlay">
+            <div class="btns flagToggle">
+                <img src="pictures/uk.png">
+                <img src="pictures/fr.png">
+            </div>
+            <div class="btns dayNight">
+                <ion-icon name="moon-outline"></ion-icon>
+                <ion-icon name="sunny-outline"></ion-icon>
+            </div>
+        </li>
+        <li><a href="/portfolio" data-translate="navHome"></a></li>
+        <li><a href="/portfolio/profile.html" data-translate="navProfile"></a></li>
+        <li><a href="/portfolio/education.html" data-translate="navEducation"></a></li>
+        <li><a class="CV" data-translate="navDownload" download></a></li>
+    </ul>
+
+
+    <!-- CONTENU -->
+    <section id="content">
+        <h1 data-translate="titleSkills"></h1>
+        <h4 data-translate="myskills"></h4>
+        <div class="frame">
+            <div class="plan basic" id="web" onclick="void(0);">
+                <div class="title" data-translate="web"></div>
+                <div class="price">
+                    <p data-translate="web0"></p>
+                    <p data-translate="web1"></p>
+                    <p data-translate="web2"></p>
+                </div>
+                <div class="lines">
+                    <div class="line" style="width: 69px;"></div>
+                    <div class="line" style="width: 59px;"></div>
+                    <div class="line" style="width: 66px;"></div>
+                    <div class="line" style="width: 46px;"></div>
+                </div>
+            </div>
+              
+            <div class="plan pro" id="sgbd" onclick="void(0);">
+                <div class="title" data-translate="sgbd"></div>
+                <div class="price">
+                    <p data-translate="sgbd0"></p>
+                    <p data-translate="sgbd1"></p>
+                    <p data-translate="sgbd2"></p>
+                </div>
+                <div class="lines">
+                    <div class="line" style="width: 69px;"></div>
+                    <div class="line" style="width: 59px;"></div>
+                    <div class="line" style="width: 66px;"></div>
+                    <div class="line" style="width: 46px;"></div>
+                </div>
+            </div>
+              
+            <div class="plan premium" id="log" onclick="void(0);">
+                <div class="title" data-translate="log"></div>
+                <div class="price">
+                    <p data-translate="log0"></p>
+                    <p data-translate="log1"></p>
+                    <p data-translate="log2"></p>
+                </div>
+                <div class="lines">
+                    <div class="line" style="width: 69px;"></div>
+                    <div class="line" style="width: 59px;"></div>
+                    <div class="line" style="width: 66px;"></div>
+                    <div class="line" style="width: 46px;"></div>
+                </div>
+            </div>
+
+            <div class="plan first" id="langue" onclick="void(0);">
+                <div class="title" data-translate="langue"></div>
+                <div class="price">
+                    <p data-translate="langue0"></p>
+                    <p data-translate="langue1"></p>
+                    <p data-translate="langue2"></p>
+                </div>
+                <div class="lines">
+                    <div class="line" style="width: 69px;"></div>
+                    <div class="line" style="width: 59px;"></div>
+                    <div class="line" style="width: 66px;"></div>
+                    <div class="line" style="width: 46px;"></div>
+                </div>
+            </div>
+              
+            <div class="datas">
+                <div class="data users">
+                    <div class="text">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                    </div>
+                    <div class="line">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="data gb">
+                    <div class="text">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                    </div>
+                    <div class="line">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="data projects">
+                    <div class="text">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                    </div>
+                    <div class="line">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+              </div>
+          </div>
+    </section>
+
+    <section id="objective">
+        <h1 data-translate="objective"></h1>
+        <h4 data-translate="myobj"></h4>
+        <p class="box" data-translate="textobjective"></p>
+        <div class="container-pictures">
+            <img class="picture-miscellaneous" src="pictures/prog.jpg">
+            <img class="picture-miscellaneous" src="pictures/database.jpg">
+        </div>
+    </section>
+
+    
+    <!-- UP -->
+    <a id="up" href="#" >
+        <img src="pictures/icon.png">
+    </a>
+
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/thomaspsl_/?hl=fr" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://twitter.com/Thomdu730" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="https://www.discord.com/users/264746272353681408" target="_blank">
+                <ion-icon name="logo-discord"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/thomas-peissel-0b7435200/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://github.com/thomaspeissel" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </div>
+        <p class="copyright" data-translate="copyright"></p>
+    </footer>
+</body>
