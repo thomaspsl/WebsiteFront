@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://html.com/"><img src="https://img.shields.io/badge/HTML-5.0-E34C26" alt="HTML"></a>
   <a href="https://developer.mozilla.org/fr/docs/Learn/CSS"><img src="https://img.shields.io/badge/CSS-3.0-563D7C" alt="CSS"></a>
-  <a href="https://developer.mozilla.org/fr/docs/Learn/JavaScript"><img src="https://img.shields.io/badge/JS-_13_-F1E05A" alt="JS"></a>
+  <a href="https://developer.mozilla.org/fr/docs/Learn/JavaScript"><img src="https://img.shields.io/badge/JS-_13.0_-F1E05A" alt="JS"></a>
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TS-4.8-3178C6" alt="TS"></a>
 </p>
 
@@ -31,8 +31,7 @@
 </p>
 
 <!-- --------------------------------------------------------- -->
-
-![WebsiteFront](https://github.com/thomaspsl/WebsiteFront/assets/84765571/5ce40f16-eb1c-429f-a6d6-a0d4f377c991)
+![WebsiteFront](https://github.com/thomaspsl/WebsiteFront/assets/84765571/52061de2-2c13-4dda-b25e-7297cb02b1c0)
 
 <!-- --------------------------------------------------------- -->
 
