@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 export default function Wrapper(props: any) {
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         document.title = props.title;
         document.querySelectorAll("button").forEach((element) => {
@@ -11,7 +10,8 @@ export default function Wrapper(props: any) {
         document.querySelectorAll("#desktop").forEach((element) => {
           element?.classList.add("current");
         });
-      });
+    }, [props.title]);
+
     return (
     <>
         <link rel="stylesheet" href={process.env.PUBLIC_URL + '/assets/css/desktop.css'} />

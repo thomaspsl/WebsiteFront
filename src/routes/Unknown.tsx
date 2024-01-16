@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 
 export default function Wrapper(props: any) {
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         document.title = props.title;
-    });
+    }, [props.title]);
+
     return (
     <>
         <link rel="stylesheet" href={process.env.PUBLIC_URL + '/assets/css/unknown.css'} />

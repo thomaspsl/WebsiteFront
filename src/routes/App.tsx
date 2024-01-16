@@ -7,10 +7,10 @@ import { useEffect } from "react";
 const Wavy = {start: "#1A1A1B", end: "#727272", duration: 2500};
 
 export default function Wrapper(props: any) {
-
     useEffect(() => {
         document.title = props.title;
-    });
+    }, [props.title]);
+
     return (
     <>
         <Header data={Wavy} />
