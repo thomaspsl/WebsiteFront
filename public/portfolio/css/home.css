@@ -62,7 +62,7 @@
 
 #main .container-picture .picture img{
     position: absolute;
-    bottom: -15%;
+    bottom: 0%;
     width: 100%;
 }
 
