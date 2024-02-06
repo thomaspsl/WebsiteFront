@@ -39,8 +39,8 @@ root.render(
             <Route path="/portfolio/education.html" render={() => {window.location.href="education.html"}} />
 
             {/* Unknow Routes */}
-            <Route path="/404" element={<Unknown title="404page | thomaspsl"/>} />
-            <Route path='/*' element={<Navigate replace to="/404"/>} />
+            {/* <Route path="/404" element={<Unknown title="404page | thomaspsl"/>} />
+            <Route path='/*' element={<Navigate replace to="/404"/>} /> */}
           </Route>
         </Routes>
       </BrowserRouter> 
