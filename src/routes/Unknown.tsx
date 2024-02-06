@@ -15,7 +15,7 @@ export default function Wrapper(props: any) {
 
                 <span>Work in progress</span>
 
-                {/* <h2 className="rotate">You are quite an adventurer</h2>
+                <h2 className="rotate">You are quite an adventurer</h2>
 
                 <img src={process.env.PUBLIC_URL + '/assets/pictures/qr.png'} alt="Error 404" />
 
@@ -25,7 +25,7 @@ export default function Wrapper(props: any) {
 
                     <span>Only for the most courageous among you !</span>
 
-                </div> */}
+                </div>
 
             </div>
             
