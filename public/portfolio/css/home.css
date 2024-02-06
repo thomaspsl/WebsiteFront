@@ -304,7 +304,7 @@
 
     #main .container-picture .picture img,
     #main2 .container-picture .picture img{
-        bottom: -35%;
+        bottom: 0%;
     }
 
     #main .container-text,
