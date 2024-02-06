@@ -168,7 +168,7 @@
 
 #main2 .container-picture .picture img{
     position: absolute;
-    bottom: -15%;
+    bottom: 0%;
     width: 100%;
 }
 
@@ -304,7 +304,7 @@
 
     #main .container-picture .picture img,
     #main2 .container-picture .picture img{
-        bottom: 0%;
+        bottom: -35%;
     }
 
     #main .container-text,
